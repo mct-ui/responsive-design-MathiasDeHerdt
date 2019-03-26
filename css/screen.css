@@ -1,21 +1,7 @@
 /*------------------------------------*\
   #FONTS
 \*------------------------------------*/
-@@font-face {
-    font-family: "HK Grotest Web";
-    font-weight: 200;
-    src: url("../fonts/fonts/hkgrotesk-light-webfont.woff2");
-}
-@@font-face {
-    font-family: "HK Grotest Web";
-    font-weight: 400;
-    src: url("../fonts/fonts/hkgrotesk-regular-webfont.woff2");
-}
-@@font-face {
-    font-family: "HK Grotest Web";
-    font-weight: 600;
-    src: url("../fonts/fonts/hkgrotesk-medium-webfont.woff2");
-}
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -29,18 +15,11 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "HK Grotest Web", Helvetica, arial, sans-serif;
-    color: #111;
+    font-family: "Helvetica Neue"Helvetica, arial, sans-serif;
+    color: #5C6366;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 20px;
-        line-height: 1.6;
-    }
 }
 
 *,
@@ -57,7 +36,7 @@ html {
  */
 
 ::selection {
-    background: #5051db;
+    background: #00E6A1;
     color: white;
     text-shadow: none;
 }
@@ -83,8 +62,8 @@ img {
     Default markup for typographic elements
 */
 
-h1,h2,h3{
-    font-weight: 200;
+h1, h2, h3{
+    color: #17171A
 }
 
 h1 {
@@ -161,18 +140,18 @@ hr {
 }
 
 a {
-    color: #5051db;
+    color: #00A1E6;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: #3e3ea8;
+    color: #00A1E6;
 }
 
 a:hover,
 a:focus {
-    color: #3e3ea8;
+    color: #1ABAFF;
 }
 
 /*------------------------------------*\
@@ -219,7 +198,8 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 56.4em; /* 90 * 16px = 1440px */
+    width: 100%;
+    max-width: 90em; /* 90 * 16px = 1440px */
 }
 
 /*
